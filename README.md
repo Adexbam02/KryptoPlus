@@ -1,4 +1,4 @@
-#Krypto+
+# Krypto+
 
 Frontend Design
 
