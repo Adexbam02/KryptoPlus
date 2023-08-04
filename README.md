@@ -2,7 +2,7 @@
 
 Frontend Design
 
-##Description
+## Description
 Krypto+ is an innovative platform that empowers crypto enthusiasts and investors with essential tools and real-time data to navigate the world of cryptocurrencies. From quick summaries of various crypto assets to secure wallet management and seamless payment requests, Krypto+ provides a comprehensive crypto experience.
 
 ##How to Get Started
