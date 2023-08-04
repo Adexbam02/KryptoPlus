@@ -1,0 +1,127 @@
+.Feature__section {
+  background: url("../../assets/100.svg") no-repeat left 20rem bottom 25rem;
+  background-color: #fafbff;
+}
+
+.feature__section-content {
+  max-width: 95%;
+  justify-content: space-between;
+}
+
+.feature__section-content__left {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.reqpay {
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  bottom: 5rem;
+  left: 8rem;
+}
+
+.by1 {
+  z-index: 100 !important;
+}
+
+.lady {
+  z-index: 1;
+}
+
+.feature__section-content__right .prop1 {
+  max-width: 50vw;
+  width: 579px;
+  z-index: 300;
+}
+
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+  .reqpay {
+    bottom: 5rem;
+    right: 0rem;
+  }
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .reqpay {
+    bottom: 5rem;
+    left: 1rem;
+  }
+  .feature__section-content__left {
+    margin-right: 6rem;
+  }
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feature__section-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .reqpay {
+    bottom: 5rem;
+    right: 10rem;
+    text-align: center;
+  }
+
+  .feature__section-content__right .prop1 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .feature__section-content__right .prop1 h1 {
+    font-size: 40px;
+  }
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .feature__section-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .reqpay {
+    bottom: 5rem;
+    right: 10rem;
+    text-align: center;
+  }
+
+  .feature__section-content__right .prop1 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .feature__section-content__right .prop1 h1 {
+    font-size: 40px;
+  }
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .feature__section-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .reqpay {
+    bottom: 5rem;
+    right: 10rem;
+    text-align: center;
+  }
+
+  .feature__section-content__right .prop1 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .feature__section-content__right .prop1 h1 {
+    font-size: 40px;
+  }
+}

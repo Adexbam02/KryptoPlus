@@ -1,0 +1,119 @@
+.feature2__section-content__right {
+  width: 500px;
+  height: 400px;
+}
+
+.feature2__section-content__left .prop1 {
+  max-width: 600px;
+}
+
+.feature2__section-content__right > div {
+  position: relative;
+}
+
+.daily__activities {
+  position: absolute;
+  bottom: 70%;
+  right: 10rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 211px;
+  height: 155px;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: var(--box-shadow4);
+  z-index: 2 !important;
+}
+
+.daily__activities p {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.daily__activities-bars {
+  gap: 15px;
+}
+
+.daily__activities-bar {
+  flex-direction: column;
+}
+.daily__activities-bar > div {
+  width: 9px;
+  height: 90px;
+  border-radius: 11px;
+  background: var(--pallet-3-primary);
+}
+
+.daily__activities-bar small {
+  color: #a9a9a9;
+  text-align: center;
+  font-family: var(--font-family3);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.daily__activities-bar:nth-child(2) > div {
+  height: 75px;
+  background: var(--pallet-3-secondary);
+}
+.daily__activities-bar:nth-child(3) > div {
+  height: 67px;
+}
+.daily__activities-bar:nth-child(4) > div {
+  height: 86px;
+  background: var(--pallet-3-secondary);
+}
+
+.create__invoice {
+  z-index: 1000 !important;
+}
+
+.createinvoice {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow4);
+  width: 90%;
+}
+
+@media screen and (max-width: 860px) {
+  .Feature2__section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .feature2__section-content__right {
+    width: 400px;
+    height: 400px;
+  }
+
+  .daily__activities {
+    position: absolute;
+    bottom: 80%;
+    right: 8rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .feature2__section-content {
+    flex-direction: column-reverse;
+  }
+
+  .daily__activities {
+    position: absolute;
+    bottom: 80%;
+    right: -1rem;
+  }
+
+  .feature2__section-content__left :is(p, h3, h1) {
+    text-align: center;
+    max-width: 380px;
+    align-items: center;
+  }
+
+  .feature2__section-content__left .prop1 {
+    align-items: center;
+  }
+}

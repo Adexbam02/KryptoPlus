@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --font-family: "Manrope", sans-serif;
+  --font-family2: "Tomorrow", sans-serif;
+  --font-family3: "Noto Sans", sans-serif;
+
+  --bg-color: #f1f1ff;
+  --section-color: #fafbff;
+  --paragraph-color: #757095;
+  --pallet-3-primary: #4f46ba;
+  --pallet-4-primary: #3734a9;
+  --pallet-4-secondary: #00e1f0;
+  --pallet-3-secondary: #f9896b;
+  --pallet-4-grey: #e8f2ff;
+  --pallet-4-accent: #ff7f5c;
+  --text-light: #718ebf;
+  --color-2: #6f767e;
+  --heading-color: #3b3b3b;
+
+  --container-width-lg: 85%;
+  --container-width-md: 90%;
+  --container-width-sm: 95%;
+
+  --transition: all 600ms ease;
+  --box-shadow1: 0px 1.8518518209457397px 3.1481480598449707px 0px
+      rgba(0, 0, 0, 0.01),
+    0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.02),
+    0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.03);
+
+  --box-shadow2: 0px 1.3528109788894653px 2.299778699874878px 0px
+      rgba(0, 0, 0, 0),
+    0px 5.95236873626709px 4.761894702911377px 0px rgba(0, 0, 0, 0),
+    0px 14.610358238220215px 9.496732711791992px 0px rgba(0, 0, 0, 0),
+    0px 28.13846778869629px 18.61467742919922px 0px rgba(0, 0, 0, 0.01),
+    0px 47.34838104248047px 34.22611618041992px 0px rgba(0, 0, 0, 0.01),
+    0px 73.05178833007812px 58.44143295288086px 0px rgba(0, 0, 0, 0.01);
+
+  --box-shadow3: 0px 1.5568665266036987px 2.6466732025146484px 0px
+      rgba(0, 0, 0, 0.01),
+    0px 6.850213527679443px 5.480170249938965px 0px rgba(0, 0, 0, 0.01),
+    0px 16.814159393310547px 10.929203033447266px 0px rgba(0, 0, 0, 0.01),
+    0px 32.38282775878906px 21.422483444213867px 0px rgba(0, 0, 0, 0.02),
+    0px 54.49032974243164px 39.38872528076172px 0px rgba(0, 0, 0, 0.02),
+    0px 84.07079315185547px 67.25663757324219px 0px rgba(0, 0, 0, 0.03);
+
+  --box-shadow4: 0px 1.8518518209457397px 3.1481480598449707px 0px
+      rgba(0, 0, 0, 0.01),
+    0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.02),
+    0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.03);
+
+  --box-shadow-blue: 0px 0.5681806206703186px 1.86857008934021px 0px
+      rgba(20, 34, 244, 0.03),
+    0px 2.4999945163726807px 3.869039297103882px 0px rgba(20, 34, 244, 0.05),
+    0px 6.136350154876709px 7.716095447540283px 0px rgba(20, 34, 244, 0.07),
+    0px 11.818156242370605px 15.124425888061523px 0px rgba(20, 34, 244, 0.09),
+    0px 19.886320114135742px 27.808719635009766px 0px rgba(20, 34, 244, 0.11),
+    0px 30.681753158569336px 47.48366165161133px 0px rgba(20, 34, 244, 0.14);
+}
+
+.container {
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+/* MEDIA QUERIES (Medium Screen) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+
+/* MEDIA QUERIES (Small Screen) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+}

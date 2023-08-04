@@ -1,0 +1,240 @@
+.whykrypto__content {
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.whykrypto__content-bar {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.whykrypto__content-bars {
+  gap: 2rem;
+}
+
+.whykrypto__content-bar h2 {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px; /* 115.385% */
+  letter-spacing: -0.78px;
+}
+
+.whykrypto__content-bar p {
+  color: #757095;
+  font-family: var(--font-family);
+  font-size: 18px;
+  max-width: 367px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+.whykrypto__content-heading p {
+  color: var(--pallet-4-primary);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+}
+.whykrypto__content-heading h1 {
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: -1.2px;
+}
+
+.whykrypto__content-bar__board {
+  width: 366px;
+  height: 238px;
+  background: #f8f8fe;
+}
+
+.bar__board {
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+}
+
+.Ellipse2 {
+  position: absolute;
+  transform: rotate(-180deg);
+  bottom: 1rem;
+  left: 1.3rem;
+}
+
+.whykrypto__content-bar__dashboards {
+  z-index: 1;
+}
+
+.bar_board {
+  position: relative;
+}
+
+.Ellipse1 {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 1rem;
+  left: 0.8rem;
+}
+
+.mywallet {
+  width: 304.79px;
+  height: 159.047px;
+  align-items: flex-start;
+  gap: 9.676px;
+  z-index: 1;
+}
+
+.mywallet__title {
+  gap: 12rem;
+}
+
+.mywallet__title p {
+  color: var(--heading-color, #3b3b3b);
+  font-family: var(--font-family);
+  font-size: 14.79px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mywallet > div {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 53.217px;
+  height: 159.047px;
+  border-radius: 36.526px;
+  padding: 15px;
+  border: 0.605px solid #e2e2e2;
+  background: #fff;
+  box-shadow: var(--box-shadow2);
+}
+
+.fullpercent {
+  background: var(--pallet-3-primary) !important;
+  border: 0.605px solid transparent !important;
+  box-shadow: var(--box-shadow-blue) !important;
+  color: #fff !important;
+}
+
+.fullpercent > p {
+  color: #fff !important;
+}
+
+.addnew {
+  border: 0.556px dashed #607d7c !important ;
+}
+
+.mywallet > div p {
+  color: #000000;
+  font-family: var(--font-family3);
+  font-size: 14.61px;
+  line-height: normal;
+}
+.mywallet > div small {
+  height: 10.643px;
+  text-align: right;
+  font-family: var(--font-family3);
+  font-size: 8.336px;
+  transform: rotate(-90deg);
+}
+
+.whykrypto__content-bar__dashboards {
+  width: 318px;
+  height: 185px;
+  background: rgb(255, 255, 255);
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.whykrypto__content-bar__dashboard {
+  gap: 10px;
+}
+
+.whykrypto__content-bar__dashboard > div small {
+  font-family: var(--font-family3);
+  color: var(--color-2);
+  font-size: 10px;
+}
+.whykrypto__content-bar__dashboard > div p {
+  color: #000;
+  font-family: var(--font-family2);
+}
+
+.whykrypto__content-bar__dashboard img {
+  width: 35.654px;
+  height: 35.654px;
+}
+
+.request__payment {
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.request__payment .Ellipse54 {
+  position: absolute;
+  bottom: 12.5rem;
+  left: 20rem;
+}
+
+.request__payment .spiral {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 2rem;
+}
+
+.namemark {
+  width: 310px;
+  height: 59px;
+  border-radius: 8.407px;
+  background: #fff;
+  box-shadow: var(--box-shadow3);
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.ellipse2 {
+  width: 23.221px;
+}
+
+.IoMdCheckmarkCircle{
+  font-size: 25.221px;
+}
+
+.namemark div {
+  gap: 10px;
+}
+
+.namemark div span p {
+  color: #000;
+  font-weight: 600;
+  font-family: var(--font-family3);
+  font-size: 11.77px;
+  line-height: normal;
+}
+
+.namemark div span small {
+  color: #c6c6c6;
+  font-family: var(--font-family3);
+  font-size: 10.088px;
+}
+
+@media screen and (max-width: 1230px) {
+  .whykrypto__content-bars {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .section__padding {
+    padding: 2rem 0.5rem;
+  }
+}

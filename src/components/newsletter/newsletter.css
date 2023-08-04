@@ -1,0 +1,73 @@
+.newsletter {
+  background: #f8f8fe;
+}
+
+.newsletter__content {
+  border-radius: 20px;
+  background: #f8f8fe;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.newsletter__content-left :is(p, h1) {
+  width: 612px;
+}
+
+.newsletter__content-left button {
+  display: none;
+}
+
+.newsletter__form form {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.newsletter h3 {
+  color: var(--pallet-4-primary);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px; 
+  letter-spacing: -0.48px;
+}
+
+.newsletter input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+
+  color: #64607d;
+  font-family: var(--font-family3);
+  font-size: 15px;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.4px;
+}
+
+.newsletter__form form button {
+  width: 100%;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  background: var(--pallet-4-accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 860px) {
+  .newsletter__content {
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0rem;
+  }
+
+  .newsletter__content-left :is(p, h3, h1) {
+    text-align: center;
+    width: 400px;
+  }
+}

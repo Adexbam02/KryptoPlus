@@ -1,0 +1,10 @@
+export { default as CTA } from "./CTA/CTA";
+export { default as Feature } from "./feature/Feature";
+export { default as Footer } from "./footer/Footer";
+export { default as Header } from "./header/Header";
+export { default as Logowall } from "./logowall/Logowall";
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Newsletter } from "./newsletter/Newsletter";
+export { default as Feature2 } from "./feature2/Feature2";
+export { default as Testimonial } from "./testimonial/Testimonial";
+export { default as Whykrypto } from "./whykrypto+/Whykrypto";

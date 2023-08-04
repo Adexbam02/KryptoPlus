@@ -1,0 +1,26 @@
+.logowall {
+  font-family: var(--font-family);
+}
+
+.logowall__content {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logowall__content p {
+  font-size: 20px;
+}
+
+.logowall__content-logo {
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.logowall__content-logo img {
+  width: 100px;
+  filter: grayscale(1);
+  transition: var(--transition);
+}
+.logowall__content-logo img:hover {
+  filter: grayscale(0);
+}
