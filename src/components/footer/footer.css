@@ -70,7 +70,6 @@ footer {
 
 @media screen and (max-width: 899px) {
   footer {
-    background: red;
   }
 
   .footer__content {
@@ -85,7 +84,6 @@ footer {
 }
 @media screen and (max-width: 776px) {
   footer {
-    background: red;
   }
 
   .footer__content {
@@ -100,16 +98,30 @@ footer {
 }
 @media screen and (max-width: 500px) {
   footer {
-    background: red;
   }
 
   .footer__content {
-    grid-template-columns: 30% 1fr;
-    flex-wrap: wrap;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
   }
+  .footer__company > ul,
+  .footer__product > ul,
+  .footer__contact > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .footer__desc {
-    margin-right: 1.5rem;
+    gap: 5px;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0rem;
   }
 }

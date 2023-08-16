@@ -68,23 +68,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer__resources">
-          <h4>Resources</h4>
-          <ul className="flex">
-            <li>
-              <a href="/">Discover</a>
-            </li>
-            <li>
-              <a href="/">Status</a>
-            </li>
-            <li>
-              <a href="/">Crypto Prices</a>
-            </li>
-            <li>
-              <a href="/">Help</a>
-            </li>
-          </ul>
-        </div>
         <div className="footer__contact">
           <h4>Contact Us</h4>
           <ul className="flex">
@@ -99,7 +82,9 @@ const Footer = () => {
       </div>
 
       <p className="flex copyright">
-        Copyright @ <a href="/">Krypto+</a> 2023. All Rights Reserved.
+        Copyright @&nbsp;
+        <a href="https://github.com/Adexbam02"> Adexbam02&nbsp;</a> 2023 -
+        Present. All Rights Reserved.
       </p>
     </footer>
   );
