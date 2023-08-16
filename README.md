@@ -1,8 +1,14 @@
-# React + Vite
+# Krypto+
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend Design
 
-Currently, two official plugins are available:
+## Description
+Krypto+ is an innovative platform that empowers crypto enthusiasts and investors with essential tools and real-time data to navigate the world of cryptocurrencies. From quick summaries of various crypto assets to secure wallet management and seamless payment requests, Krypto+ provides a comprehensive crypto experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Get Started
+Clone this repository: git clone https://github.com/yourusername/kryptoplus.git
+Install dependencies: npm install
+Start the development server: npm start
+
+
+![Krypto](https://github.com/Adexbam02/KryptoPlus/assets/65459839/2647404d-06ca-4faf-80c8-120a6774a15a)
