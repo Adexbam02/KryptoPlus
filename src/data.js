@@ -20,7 +20,7 @@ export const testimonial = [
     comment:
       "Efficient wallet management and expert data analysis. Krypto+ is the ultimate crypto companion!",
     img: testimonialpro2,
-    name: "Sarah",
+    name: "Wallace",
     small: "Entrepreneur",
   },
   {
@@ -29,7 +29,7 @@ export const testimonial = [
     comment:
       "Incredible customer support and user-friendly platform. Krypto+ helped me boost my crypto investments!",
     img: testimonialpro3,
-    name: "- Mark",
+    name: "Mark",
     small: "Trader",
   },
 ];

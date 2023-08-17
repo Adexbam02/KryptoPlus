@@ -50,16 +50,16 @@ const Navbar = () => {
             <div className="slide-top nav__content__hamburger-menu">
               <div className="nav__content__hamburger-menu__link">
                 <ul className="nav__content__hamburger-menu__link-list">
-                  <li>
+                  <li onClick={() => setToggleMenu(false)}>
                     <a href="#">Home</a>
                   </li>
-                  <li>
+                  <li onClick={() => setToggleMenu(false)}>
                     <a href="#whykrypto+">Why Krypto+</a>
                   </li>
-                  <li>
+                  <li onClick={() => setToggleMenu(false)}>
                     <a href="#feature">Feature</a>
                   </li>
-                  <li>
+                  <li onClick={() => setToggleMenu(false)}>
                     <a href="#testimonial">Testimonial</a>
                   </li>
                 </ul>

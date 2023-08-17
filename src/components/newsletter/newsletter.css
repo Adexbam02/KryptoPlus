@@ -1,5 +1,6 @@
 .newsletter {
   background: #f8f8fe;
+  margin-bottom: 2rem;
 }
 
 .newsletter__content {
@@ -7,6 +8,10 @@
   background: #f8f8fe;
   padding: 3rem;
   gap: 3rem;
+}
+
+.newsletter__content-left h1{
+  color: #191919;
 }
 
 .newsletter__content-left :is(p, h1) {
@@ -68,6 +73,6 @@
 
   .newsletter__content-left :is(p, h3, h1) {
     text-align: center;
-    width: 400px;
+    width: 100%;
   }
 }

@@ -13,11 +13,11 @@
 }
 
 .whykrypto__content-bar h2 {
-  color: #000;
+  color: #191919;
   font-family: var(--font-family);
   font-size: 26px;
   font-weight: 800;
-  line-height: 30px; /* 115.385% */
+  line-height: 30px; 
   letter-spacing: -0.78px;
 }
 
@@ -40,10 +40,11 @@
 }
 .whykrypto__content-heading h1 {
   text-align: center;
+  color: #191919;
   font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
-  line-height: 69px;
+  /* line-height: 69px; */
   letter-spacing: -1.2px;
 }
 

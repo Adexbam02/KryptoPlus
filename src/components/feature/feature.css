@@ -1,5 +1,4 @@
-.Feature__section {
-  background: url("../../assets/100.svg") no-repeat left 20rem bottom 25rem;
+.Feature__section {/* background: url("../../assets/100.svg") no-repeat left 20rem bottom 25rem; */
   background-color: #fafbff;
 }
 
@@ -91,10 +90,16 @@
     right: 10rem;
     text-align: center;
   }
+  .feature__section-content__right .prop1 {
+    max-width: 100%;
+    width: 100%;
+    /* z-index: 300; */
+  }
 
   .feature__section-content__right .prop1 {
     text-align: center;
     align-items: center;
+    /* max-width: 80%; */
   }
 
   .feature__section-content__right .prop1 h1 {
@@ -119,6 +124,8 @@
   .feature__section-content__right .prop1 {
     text-align: center;
     align-items: center;
+    max-width: 100%;
+    width: 100%;
   }
 
   .feature__section-content__right .prop1 h1 {
