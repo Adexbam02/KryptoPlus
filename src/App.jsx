@@ -9,8 +9,8 @@ function App() {
     <Logowall />
     <Whykrypto />
     <Feature />
-    <Newsletter />
     <Feature2 />
+    <Newsletter />
     <Testimonial />
     <CTA />
     <Footer />

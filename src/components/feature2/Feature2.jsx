@@ -7,7 +7,7 @@ const Feature2 = () => {
       <div className="flex feature2__section-content">
         <div className="feature2__section-content__left">
           <Prop1
-            heading="OUR FEATURE"
+            heading=""
             title="Manage all expenses &
               incomes from your dashboard"
             paragraph="Smart Financial Control: Take charge of your finances effortlessly. Monitor expenses and incomes, and stay on top of your financial game with Krypto+ dashboard!"
